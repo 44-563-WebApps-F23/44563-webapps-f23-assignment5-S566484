@@ -4,13 +4,22 @@
   <title>Cities</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <style>
+      .img-fluid{
+        height: 400px;
+        width: 400px;
+      }
+      .img-thumbnail{
+        height: 400px;
+        width: 400px;
+      }
+      </style>
 </head>
 <body>
 <h4>Visit cities with Sowmya Reddy Boppidi</h4>
@@ -32,7 +41,177 @@
         <div class="col-md">Des Moines</div>
         </div>
     </div>
+    <p>when we are shrinking or reducing the size of the browser , we can observe that first the cities are coming down one-by-one , as they are medium in size , if we reduce the size of the browser a little more then the letters will also come down</p>
+    <div class="image-container">
+    
+      <img src="Beijing.jpg" class="img-fluid" alt="Beijing city">
+      <img src="Omaha.jpg"class="img-fluid" alt="Omaha city">
+      <img src="Pennsylvania.jpg"class="img-fluid" alt="Pennsylvania city">
+      </div>
+    
+    <div class="thumbnail-container">
+      
+      <img src="Beijing.jpg" class="img-thumbnail" alt="Beijing city">
+      <img src="Omaha.jpg"class="img-thumbnail" alt="Omaha city">
+      <img src="Pennsylvania.jpg"class="img-thumbnail" alt="Pennsylvania city">
+      </div>
+    
+      <caption>LIST OF CITIES,RIVERS,TRESS ACCORDING TO THE TAKEN LETTERS</caption>
+      
+      <table class="table table-success table-striped table-hover border border-dark-subtle border-5" >
+        
+        <thead class="table-dark">
+        <tr>
+          <th scope="col">LETTER</th>
+          <th scope="col">CITY</Th>
+          <th scope="col">RIVER</th>
+          <th scope="col">TREES</th>
+        </tr>
+      </thead >
+      <tbody>
+        <tr class="table-primary">
+          <td scope="row">B</td>
+          <td>Beijing</td>
+          <td>Braden River</td>
+          <td>Birch</td>
+          </tr>
+        <tr class="table-secondary">
+          <td scope="row" >O</td>
+          <td>Omaha</td>
+          <td>Osage River</td>
+          <td>Oak</td>
+          </tr>
+        <tr class="table-success">
+          <td scope="row">P</td>
+          <td>Pennsylvania</td>
+          <td>Pocatalico River</td>
+          <td>Prunus</td>
+        </tr>
+        <tr class="table-danger">
+          <td scope="row">P</td>
+          <td>Peoria</td>
+          <td>Parana River</td>
+          <td>Privet</td>
+        </tr>
+        <tr class="table-warning">
+          <td scope="row">I</td>
+          <td>Indianapolis </td>
+          <td>Igushik River</td>
+          <td>Inland Boxelder</td>
+        </tr>
+        <tr class="table-info">
+          <td scope="row">D</td>
+          <td>Des Moines</td>
+          <td>Davis Creek River</td>
+          <td>Daphne Laureola</td>
+        </tr>
+          </tbody>
+      </table>
+      <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">A Few Cities</a>
+    </nav>
+    <caption>Buttons</caption><br>
+    <div class="btn-group" role=""group" aria-label="Basic mixed style Example"></div>
+    <button type="button" class="btn btn-outline-secondary">B</button>
+    <button type="button" class="btn btn-outline-secondary">O</button>
+    <button type="button" class="btn btn-outline-secondary">P</button>
+    <button type="button" class="btn btn-outline-secondary">P</button>
+    <button type="button" class="btn btn-outline-secondary">I</button><br>
+      <caption>Button Groups</caption><br>
+      <div class="btn-toolbar" role="toolbar" aria-label="Button Toolbar"></div>
+            <div class="btn-group mr-2" role="group" aria-label="Group 1">
+                <button type="button" class="btn btn-success">B</button>
+                <button type="button" class="btn btn-success">O</button>
+                <button type="button" class="btn btn-success">P</button>
+            </div>
+            
+            
+            <div class="btn-group mr-2" role="group" aria-label="Group 2">
+                <button type="button" class="btn btn-warning">P</button>
+                <button type="button" class="btn btn-warning">I</button>
+            </div>
+            
+           
+            <div class="btn-group" role="group" aria-label="Group 3">
+                <button type="button" class="btn btn-danger">D</button>
+            </div>
+        </div>
+    <br>
+  
+    <div class="dropdown">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown</button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="basic.html">BASIC HTML</a>
+          <a class="dropdown-item" href="advanced.html">ADVANCE HTML</a>
+      </div>
+  </div>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">My Cities</a>
+          </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="basic.html">Basic</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="advanced.html">Advanced</a>
+            </li>
+        </ul>
+    </div>
+  </nav>
+  
+    <form>
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">Your email address will be never shared with anyone</small>
+        </div>
+        <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" class="form-control" id="city" placeholder="Enter your city">
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="newsletter">
+            <label class="form-check-label" for="newsletter">Sign up for newsletter?</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  <div class="row">
+    <div class="col-sm-4 mb-3 mb-sm-0">
+            <div class="card" style="width: 16rem;">
+                <img src="Beijing.jpg" class="card-img-top" alt="Beijing city image ">
+                <div class="card-body">
+                    <h5 class="card-title">Beijing</h5>
+                    <p class="card-text">Beijing  city is renowned for its opulent palaces, temples, parks, gardens, tombs, walls and gates. </p>
+                    <a href="https://www.google.com/search?q=Beijing+city+is+renowned+for+its+opulent+palaces%2C+temples%2C+parks%2C+gardens%2C+tombs%2C+walls+and+gates.&rlz=1C1GCEA_enUS1074US1074&oq=Beijing+city+is+renowned+for+its+opulent+palaces%2C+temples%2C+parks%2C+gardens%2C+tombs%2C+walls+and+gates.&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzUwMWowajGoAgCwAgA&sourceid=chrome&ie=UTF-8" class="btn btn-primary">Beijing</a>
+                </div>
+            </div>
+        </div> 
+        <div class="col-sm-4 mb-3 mb-sm-0">
+            <div class="card" style="width: 16rem;">
+                <img src="Omaha.jpg" class="card-img-top" alt="Omaha city Image">
+                <div class="card-body">
+                    <h5 class="card-title">Omaha</h5>
+                    <p class="card-text">Omaha is in the Midwestern United States on the Missouri River, about 10 mi north of the mouth of the Platte River.</p>
+                    <a href="https://www.google.com/search?q=Omaha+is+in+the+Midwestern+United+States+on+the+Missouri+River%2C+about+10+mi+north+of+the+mouth+of+the+Platte+River&rlz=1C1GCEA_enUS1074US1074&oq=Omaha+is+in+the+Midwestern+United+States+on+the+Missouri+River%2C+about+10+mi+north+of+the+mouth+of+the+Platte+River&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzk0N2owajGoAgCwAgA&sourceid=chrome&ie=UTF-8" class="btn btn-primary">OMAHA</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 mb-3 mb-sm-0">
+            <div class="card" style="width: 16rem;">
+                <img src="Pennsylvania.jpg" class="card-img-top" alt="vancouver city image">
+                <div class="card-body">
+                    <h5 class="card-title">Pennsylvania</h5>
+                    <p class="card-text">The city is home to numerous historical landmarks such as Independence Hall, the Liberty Bell, and the Betsy Ross House.</p>
+                    <a href="https://www.google.com/search?q=The+city+is+home+to+numerous+historical+landmarks+such+as+Independence+Hall%2C+the+Liberty+Bell%2C+and+the+Betsy+Ross+House.&rlz=1C1GCEA_enUS1074US1074&oq=The+city+is+home+to+numerous+historical+landmarks+such+as+Independence+Hall%2C+the+Liberty+Bell%2C+and+the+Betsy+Ross+House.&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzUwMWowajGoAgCwAgA&sourceid=chrome&ie=UTF-8" class="btn btn-primary">Pennsylvania</a>
+                </div>
+            </div>
+          </div>
 </div>
-<p>when we are shrinking or reducing the size of the browser , we can observe that first the cities are coming down one-by-one , as they are medium in size , if we reduce the size of the browser a little more then the letters will also come down</p>
 </body>
 </html>
